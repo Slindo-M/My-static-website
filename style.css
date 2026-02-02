@@ -1,0 +1,74 @@
+body {
+    background-color: cornsilk;
+    margin: 20px;
+    padding: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+}
+
+h1 {
+    color: palevioletred;
+    font-size: large;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: pink;
+    font-size: medium;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+h3 {
+    color: peru;
+    font-size: small;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+
+
+.div1 {
+    color: olivedrab;
+    font-size: small;
+    font-weight: normal;
+    text-align: justify;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+p {
+    color: olivedrab;
+    font-size: small;
+    font-weight: normal;
+    text-align: justify;
+    font-style: normal;
+    margin-bottom: 10px;
+}
+
+a {
+    color: green;
+    font-size: small;
+    font-weight: bold;
+    text-decoration: none;
+    border: none;
+}
+
+img {
+    max-width: 200px;
+    height: auto;
+    display: block;
+    margin-bottom: 10px;
+    border: none;
+}
+
+a[href^="#"] {
+    color: palevioletred;
+    display: inline-block;
+    margin-top: 20px;
+    font-size: small;
+}
+
+a[href^="#"]:hover {
+    text-decoration: underline;
+}
